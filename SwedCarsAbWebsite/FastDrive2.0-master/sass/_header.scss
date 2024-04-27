@@ -1,0 +1,43 @@
+header{
+    background-color: $--color-primary;
+
+
+    .header-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo{
+            
+            h3{
+                color: $--color-fourth;
+            }
+
+            span{
+                color: #fff;
+            }
+
+        }
+
+        .nav-bar{
+
+            &-item{
+                margin-right: 0.5rem;
+                color: #fff;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: 400;
+
+                &:hover{
+                    border-bottom: 1px solid $--color-fourth;
+                    color: $--color-fourth;
+                    transition: .5s;
+                }
+
+            }
+
+        }
+
+    }
+
+}

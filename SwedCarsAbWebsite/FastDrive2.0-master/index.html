@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FastDrive</title>
+    <link rel="shortcut icon" href="./Media/Other/sport-car.png" type="image/x-icon">
+    <link rel="stylesheet" href="./sass/main.css">
+    <script src="https://kit.fontawesome.com/b1544e75c9.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Kaushan+Script&family=Poppins:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- header section start -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <Img src="Media/Other/SWEdencar_ab_logo_m.png"></Img>
+                </div>
+                <div class="sidebar">
+                    <a onclick=hideSidebar() href="#" class="nav-menu-buttons"><svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+                    <a href="#" class="side-bar-item side-bar-btn-anim"><span>Start</span></a>
+                    <a href="#about" class="side-bar-item side-bar-btn-anim"> <span>om oss</span></a>
+                    <a href="./our-cars.html" class="side-bar-item side-bar-btn-anim"><span>Sortiment</span></a>
+                    <a href="#" class="side-bar-item side-bar-btn-anim"><span>Sälj Bil</span></a>
+                    <a href="#" class="side-bar-item side-bar-btn-anim"><span>Motoroptimering</span></a>
+                    <a href="#" class="nav-bar-item side-bar-btn-anim"><span>BilService</span></a>
+                </div>
+                <div class="nav-bar">
+                    <a href="#" class="nav-bar-item btn-animated"><span>Start</span></a>
+                    <a href="#about" class="nav-bar-item btn-animated"> <span>om oss</span></a>
+                    <a href="./our-cars.html" class="nav-bar-item btn-animated"><span>Sortiment</span></a>
+                    <a href="#" class="nav-bar-item btn-animated"><span>Sälj Bil</span></a>
+                    <a href="#" class="nav-bar-item btn-animated"><span>Motoroptimering</span></a>
+                    <a href="#" class="nav-bar-item btn-animated"><span>BilService</span></a>
+
+                </div>
+                <div class="log-in">
+                    <a href="./login.html" class="log-in-btn btn-animated">
+                        <span>Login</span>
+                    </a>
+                    <a onclick=showSideBar() href="#" class="nav-open-menu-btn"><svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section end -->
+
+    <!-- intro section start -->
+    <section class="intro">
+        <div class="container">
+            <div class="intro-content">
+                <div class="text-box">
+                    <img src="Media/Other/SWEdencar_ab_logo_m.png" class="title" alt="">
+                    <span class="subtitle">Skapa det bästa<br>bil upplevelsen</span>
+                    <div class="intro-buttons">
+                        <a href="#" class="show-more-btn btn-animated"><span>Visa mer</span></a>
+                        <a href="#" class="discover-btn btn-animated"><span>Vår historik</span></a>
+                    </div>
+                    <div class="info-box">
+                        <div class="info-box-item">
+                            <h3>+8<br><span>År av <br>erfarenhet<br>inom branchen</span></h3>
+                        </div>
+                        <div class="info-box-item">
+                            <h3>+1400<br><span>Kunder<br>Nöjda</span></h3>
+                        </div>
+                        <div class="info-box-item">
+                            <h3>+300<br><span>Models<br>av<br>bilar</span></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-box">
+                    <img src="./Media/Other/intro-photo1.png" alt="" class="intro-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- intro section end -->
+
+    <!-- about us section start  -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <h1 class="title">Om <img src="Media/Other/SWEdencar_ab_logo_m.png" class="SmallerLogo" alt=""></h1>
+                <div class="accordion" id="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-item-header">Översikt</div>
+                        <div class="accordion-item-body">
+                            <div class="accordion-item-body-content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                   laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum 
+                                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+                                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-item-header">Kund Fokus</div>
+                        <div class="accordion-item-body">
+                            <div class="accordion-item-body-content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                   irure dolor in reprehenderit in voluptate velit esse cillum 
+                                   dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+                                   non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-item-header">Lednings grupp</div>
+                        <div class="accordion-item-body">
+                            <div class="accordion-item-body-content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                   irure dolor in reprehenderit in voluptate velit esse cillum 
+                                   dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+                                   non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-item-header">Framgångs faktor</div>
+                        <div class="accordion-item-body">
+                            <div class="accordion-item-body-content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                   irure dolor in reprehenderit in voluptate velit esse cillum 
+                                   dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+                                   non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about us section end -->
+
+    <!-- offers section start -->
+    <section class="offers">
+        <div class="container">
+            <h1 class="title">What we can offer?</h1>
+            <div class="offers-content">
+                <div class="background-card-tabs"></div>
+               <div class="tabs">
+                <div class="buttons">
+                    <button class="tabs-btn btn-animated" type="button" data-tab="#tab-1"><span>Luxury</span></button>
+                    <button class="tabs-btn btn-animated" type="button" data-tab="#tab-3"><span>Electric</span></button>
+                    <button class="tabs-btn btn-animated" type="button" data-tab="#tab-2"><span>Econom</span></button>
+                    <button class="tabs-btn btn-animated" type="button" data-tab="#tab-5"><span>Sport</span></button>
+                    <button class="tabs-btn btn-animated" type="button" data-tab="#tab-4"><span>Jeeps</span></button>
+                </div>
+                <div class="tabs-content">
+                    <div class="tabs-item" id="tab-1">
+                        <div class="tabs-image">
+                            <img src="./Media/Other/offer-luxury.jpg" class="tabs-photo" alt="">
+                        </div>
+                        <div class="info-text-box">
+                            <h3>Luxury Cars</h3>
+                            <p class="tabs-p">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam commodi officia,
+                                corporis sed voluptate eius neque odit, totam repellendus voluptatibus temporibus quod
+                            </p>
+                            <button class="info-text-box-btn btn-animated"><span>se mer</span></button>
+                        </div>
+                    </div>
+                    <div class="tabs-item" id="tab-2">
+                        <div class="tabs-image">
+                            <img src="./Media/Other/offer-econom.jpg" class="tabs-photo" alt="">
+                        </div>
+                        <div class="info-text-box">
+                            <h3>Econom Cars</h3>
+                            <p class="tabs-p" >
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam commodi officia,
+                                corporis sed voluptate eius neque odit, totam repellendus voluptatibus temporibus quod
+                                sapiente deserunt, harum distinctio ut cum tenetur blanditiis.
+                            </p>
+                            <button class="info-text-box-btn btn-animated"><span>Se mer</span></button>
+                        </div>
+                    </div>
+                    <div class="tabs-item" id="tab-3">
+                        <div class="tabs-image">
+                            <img src="./Media/Other/offer-electric.jpg" class="tabs-photo" alt="">
+                        </div>
+                        <div class="info-text-box">
+                            <h3>Electric Cars</h3>
+                            <p class="tabs-p" >
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam commodi officia,
+                                corporis sed voluptate eius neque odit, totam repellendus voluptatibus temporibus quod
+                                sapiente deserunt, harum distinctio ut cum tenetur blanditiis.
+                            </p>
+                            <button class="info-text-box-btn btn-animated"><span>se mer</span></button>
+                        </div>
+                    </div>
+                    <div class="tabs-item" id="tab-4">
+                        <div class="tabs-image">
+                            <img src="./Media/Other/offer-jeep.jpg" class="tabs-photo" alt="">
+                        </div>
+                        <div class="info-text-box">
+                            <h3>Jeep Cars</h3>
+                            <p class="tabs-p">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam commodi officia,
+                                corporis sed voluptate eius neque odit, totam repellendus voluptatibus temporibus quod
+                                sapiente deserunt, harum distinctio ut cum tenetur blanditiis.
+                            </p>
+                            <button class="info-text-box-btn btn-animated"><span>se mer</span></button>
+                        </div>
+                    </div>
+                    <div class="tabs-item" id="tab-5">
+                        <div class="tabs-image">
+                            <img src="./Media/Other/offer-sport.jpg" class="tabs-photo" alt="">
+                        </div>
+                        <div class="info-text-box">
+                            <h3>Sport Cars</h3>
+                            <p class="tabs-p">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam commodi officia,
+                                corporis sed voluptate eius neque odit, totam repellendus voluptatibus temporibus quod
+                                sapiente deserunt, harum distinctio ut cum tenetur blanditiis.
+                            </p>
+                            <button class="info-text-box-btn btn-animated"><span>se mer</span></button>
+                        </div>
+                    </div>
+               </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- offers section end -->
+
+    <!-- services section start  -->
+    <section class="services" id="services">
+        <div class="container">
+            <h1 class="title">Special<span>Offers</span></h1>
+            <div class="services-content">
+                <div class="services-item">
+                    <div class="services-icon">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3 class="service-title">Secured Payment<br>Guarantee</h3>
+                </div>
+
+                <div class="services-item">
+                    <div class="services-icon">
+                        <i class="fa-solid fa-headphones-simple"></i>
+                    </div>
+                    <h3 class="service-title">Help Center &<br>Support 24/7</h3>
+                </div>
+
+                <div class="services-item">
+                    <div class="services-icon">
+                        <i class="fa-solid fa-gem"></i>
+                    </div>
+                    <h3 class="service-title">Booking Luxury &<br>Sport Cars</h3>
+                </div>
+
+                <div class="services-item">
+                    <div class="services-icon">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+                    <h3 class="service-title">Corporate &<br>Bussines Services</h3>
+                </div>
+
+                <div class="services-item">
+                    <div class="services-icon">
+                        <i class="fa-solid fa-user-plus"></i>
+                    </div>
+                    <h3 class="service-title">Car Sharing<br>Options</h3>
+                </div>
+
+                <div class="services-item">
+                    <div class="services-icon">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                    </div>
+                    <h3 class="service-title">Accesible<br>Price</h3>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- services section end -->
+
+    <!-- slider section start  -->
+    <div class="card-section">
+        <div class="container">
+            <h1 class="title">Nytilagda <span>Bilar</span></h1>
+            <div class="cards-container">
+                <div class="card-item">
+                    <div class="card-img">
+                        <img src="./Media/ElectricCars/tesla-model-s-min.png" alt="" class="card-photo">
+                    </div>
+                    <h3 class="card-title">Testa Model-S</h3>
+                    <div class="card-info">
+                        <i class="fa-solid fa-tag"></i>
+                        <span>2023</span>
+                    </div>
+
+                    <div class="popup" id="popup-1">
+                        <div class="overlay"></div>
+                        <div class="popup-content">
+                            <div class="close-btn" onclick="togglePopup('popup-1')">&times;</div>
+                            <h1 class="popup-title">Tesla Model-S</h1>
+                            <div class="contains">
+                                <div class="popup-img">
+                                    <img src="./Media/ElectricCars/tesla-model-s-min.png" alt="" class="popup-photo">
+                                </div>
+                                <div class="cars-info">
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-car"></i>
+                                        <h4>Class:<span>Electric</span></h4>
+                                    </div>
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-gauge"></i>
+                                        <h4>Engine Range:<span>100 kWh (360 MJ)</span></h4>
+                                    </div>
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-car"></i>
+                                        <h4>Doors:<span>4</span></h4>
+                                    </div>
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-gauge"></i>
+                                        <h4>Kilometers:<span>1.200.000</span></h4>
+                                    </div>
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-users"></i>
+                                        <h4>Passagers:<span>5</span></h4>
+                                    </div>
+                                </div>
+                                <button class="order-btn btn-animated"><span>Order Now</span></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="see-more-btn btn-animated" onclick="togglePopup('popup-1')"><span>Se Mer
+                            </span></button>
+                </div>
+
+                <div class="card-item">
+                    <div class="card-img">
+                        <img src="./Media/ElectricCars/porsche-taycan-min.png" alt="" class="card-photo">
+                    </div>
+                    <h3 class="card-title">Porsche Taycan</h3>
+                    <div class="card-info">
+                        <i class="fa-solid fa-tag"></i>
+                        <span>2014</span>
+                    </div>
+
+                    <div class="popup" id="popup-2">
+                        <div class="overlay"></div>
+                        <div class="popup-content">
+                            <div class="close-btn" onclick="togglePopup('popup-2')">&times;</div>
+                            <h1 class="popup-title">Porsche Taycan</h1>
+                            <div class="contains">
+                                <div class="popup-img">
+                                    <img src="./Media/ElectricCars/porsche-taycan-min.png" alt="" class="popup-photo">
+                                </div>
+                                <div class="cars-info">
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-car"></i>
+                                        <h4>Class:<span>Electric</span></h4>
+                                    </div>
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-gauge"></i>
+                                        <h4>Engine Range:<span>100 kWh (360 MJ)</span></h4>
+                                    </div>
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-car"></i>
+                                        <h4>Doors:<span>4</span></h4>
+                                    </div>
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-gauge"></i>
+                                        <h4>Kilometers:<span>1.200.000</span></h4>
+                                    </div>
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-users"></i>
+                                        <h4>Passagers:<span>5</span></h4>
+                                    </div>
+                                </div>
+                                <button class="order-btn btn-animated"><span>Order Now</span></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="see-more-btn btn-animated" onclick="togglePopup('popup-2')"><span>Se Mer
+                            </span></button>
+                </div>
+
+                <div class="card-item">
+                    <div class="card-img">
+                        <img src="./Media/ManualCars/audi-q6-min.png" alt="" class="card-photo">
+                    </div>
+                    <h3 class="card-title">Audi Q-6</h3>
+                    <div class="card-info">
+                        <i class="fa-solid fa-tag"></i>
+                        <span>2021</span>
+                    </div>
+
+                    <div class="popup" id="popup-3">
+                        <div class="overlay"></div>
+                        <div class="popup-content">
+                            <div class="close-btn" onclick="togglePopup('popup-3')">&times;</div>
+                            <h1 class="popup-title">Audi Q-6</h1>
+                            <div class="contains">
+                                <div class="popup-img">
+                                    <img src="./Media/ManualCars/audi-q6-min.png" alt="" class="popup-photo">
+                                </div>
+                                <div class="cars-info">
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-car"></i>
+                                        <h4>Class:<span>Econom</span></h4>
+                                    </div>
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-gauge"></i>
+                                        <h4>Engine Range:<span>100 kWh (360 MJ)</span></h4>
+                                    </div>
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-car"></i>
+                                        <h4>Doors:<span>4</span></h4>
+                                    </div>
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-gauge"></i>
+                                        <h4>Kilometers:<span>1.200.000</span></h4>
+                                    </div>
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-users"></i>
+                                        <h4>Passagers:<span>5</span></h4>
+                                    </div>
+                                </div>
+                                <button class="order-btn btn-animated"><span>Order Now</span></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="see-more-btn btn-animated" onclick="togglePopup('popup-3')"><span>Se Mer
+                            </span></button>
+                </div>
+
+                <div class="card-item">
+                    <div class="card-img">
+                        <img src="./Media/ManualCars/volkswagen-tiguan-min.png" alt="" class="card-photo">
+                    </div>
+                    <h3 class="card-title">Volkswagen Tiguan</h3>
+                    <div class="card-info">
+                        <i class="fa-solid fa-tag"></i>
+                        <span>2022</span>
+                    </div>
+
+                    <div class="popup" id="popup-4">
+                        <div class="overlay"></div>
+                        <div class="popup-content">
+                            <div class="close-btn" onclick="togglePopup('popup-4')">&times;</div>
+                            <h1 class="popup-title">Volkswagen Tiguan</h1>
+                            <div class="contains">
+                                <div class="popup-img">
+                                    <img src="./Media/ManualCars/volkswagen-tiguan-min.png" alt="" class="popup-photo">
+                                </div>
+                                <div class="cars-info">
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-car"></i>
+                                        <h4>Class:<span>Econom</span></h4>
+                                    </div>
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-gauge"></i>
+                                        <h4>Engine Range:<span>100 kWh (360 MJ)</span></h4>
+                                    </div>
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-car"></i>
+                                        <h4>Doors:<span>4</span></h4>
+                                    </div>
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-gauge"></i>
+                                        <h4>Kilometers:<span>1.200.000</span></h4>
+                                    </div>
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-users"></i>
+                                        <h4>Passagers:<span>5</span></h4>
+                                    </div>
+                                </div>
+                                <button class="order-btn btn-animated"><span>Order Now</span></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="see-more-btn btn-animated" onclick="togglePopup('popup-4')"><span>Se Mer
+                            </span></button>
+                </div>
+
+                <div class="card-item">
+                    <div class="card-img">
+                        <img src="./Media/SportCars/audi-rs7-min.png" alt="" class="card-photo">
+                    </div>
+                    <h3 class="card-title">Audi RS-7</h3>
+                    <div class="card-info">
+                        <i class="fa-solid fa-tag"></i>
+                        <span>2020</span>
+                    </div>
+
+                    <div class="popup" id="popup-5">
+                        <div class="overlay"></div>
+                        <div class="popup-content">
+                            <div class="close-btn" onclick="togglePopup('popup-5')">&times;</div>
+                            <h1 class="popup-title">Audi RS-7</h1>
+                            <div class="contains">
+                                <div class="popup-img">
+                                    <img src="./Media/SportCars/audi-rs7-min.png" alt="" class="popup-photo">
+                                </div>
+                                <div class="cars-info">
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-car"></i>
+                                        <h4>Class:<span>Sport</span></h4>
+                                    </div>
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-gauge"></i>
+                                        <h4>Engine Range:<span>100 kWh (360 MJ)</span></h4>
+                                    </div>
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-car"></i>
+                                        <h4>Doors:<span>4</span></h4>
+                                    </div>
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-gauge"></i>
+                                        <h4>Kilometers:<span>1.200.000</span></h4>
+                                    </div>
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-users"></i>
+                                        <h4>Passagers:<span>5</span></h4>
+                                    </div>
+                                </div>
+                                <button class="order-btn btn-animated"><span>Order Now</span></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="see-more-btn btn-animated" onclick="togglePopup('popup-5')"><span>Se Mer
+                            </span></button>
+                </div>
+
+                <div class="card-item">
+                    <div class="card-img">
+                        <img src="./Media/SportCars/nissan-gtr-min.png" alt="" class="card-photo">
+                    </div>
+                    <h3 class="card-title">Nissan GTR</h3>
+                    <div class="card-info">
+                        <i class="fa-solid fa-tag"></i>
+                        <span>2018</span>
+                    </div>
+
+                    <div class="popup" id="popup-6">
+                        <div class="overlay"></div>
+                        <div class="popup-content">
+                            <div class="close-btn" onclick="togglePopup('popup-6')">&times;</div>
+                            <h1 class="popup-title">Nissan GTR</h1>
+                            <div class="contains">
+                                <div class="popup-img">
+                                    <img src="./Media/SportCars/nissan-gtr-min.png" alt="" class="popup-photo">
+                                </div>
+                                <div class="cars-info">
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-car"></i>
+                                        <h4>Class:<span>Sport</span></h4>
+                                    </div>
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-gauge"></i>
+                                        <h4>Engine Range:<span>100 kWh (360 MJ)</span></h4>
+                                    </div>
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-car"></i>
+                                        <h4>Doors:<span>4</span></h4>
+                                    </div>
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-gauge"></i>
+                                        <h4>Kilometers:<span>1.200.000</span></h4>
+                                    </div>
+                                    <div class="cars-info-item">
+                                        <i class="fa-solid fa-users"></i>
+                                        <h4>Passagers:<span>5</span></h4>
+                                    </div>
+                                </div>
+                                <button class="order-btn btn-animated"><span>Order Now</span></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="see-more-btn btn-animated" onclick="togglePopup('popup-6')"><span>Se Mer
+                            </span></button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- slider section end -->
+
+    <!-- partners section start  -->
+    <div class="partners">
+        <div class="container">
+            <h1 class="title">Våra <span>Sponsorer</span></h1>
+            <div class="partners-content">
+                <div class="partners-item">
+                    <img src="./Media/Other/partner-photo-1.png" alt="" class="partner-photo">
+                </div>
+                <div class="partners-item">
+                    <img src="./Media/Other/partner-photo-2.png" alt="" class="partner-photo">
+                </div>
+                <div class="partners-item">
+                    <img src="./Media/Other/partner-photo-3.png" alt="" class="partner-photo">
+                </div>
+                <div class="partners-item">
+                    <img src="./Media/Other/partner-photo-4.png" alt="" class="partner-photo">
+                </div>
+                <div class="partners-item">
+                    <img src="./Media/Other/partner-photo-5.png" alt="" class="partner-photo">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- partners section end -->
+
+    <!-- footer section start  -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-box">
+                    <img src="Media/Other/SWEdencar_ab_logo_m.png" width="300px" alt="">
+                    <p class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione vitae provident
+                        nulla repudiandae, aliquid atque maxime sed dolorem suscipit incidunt voluptates aperiam velit
+                        numquam, aspernatur perspiciatis autem sapiente cupiditate facilis.
+                    </p>
+                </div>
+                <div class="footer-box">
+                    <h1 class="title">Contact Us</h1>
+                    <div class="address">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Main Office Address</span>
+                    </div>
+                    <p>str.Stefan cel Mare 98/2</p>
+                    <div class="time">
+                        <i class="fa-solid fa-clock"></i>
+                        <span>08:00am - 09:30pm</span>
+                    </div>
+                    <div class="mail">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>fastdrive95@gmail.com</span>
+                    </div>
+                    <div class="phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+373-764-923-41</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end -->
+
+    <button id="scrollBtn" onclick="topFunction()">Back</button>
+
+    <script src="./Scripts/script.js"></script>
+    
+<script>
+    function showSideBar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display='flex'
+    }
+
+    function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display='none'
+    }
+</script>
+
+</body>
+
+</html>

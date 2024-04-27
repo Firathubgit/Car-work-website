@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Kaushan+Script&family=Poppins:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+
+    scroll-behavior: smooth;
+
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../Media/Other/body-bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.container{
+    margin: auto;
+    padding: 15px;
+    max-width: 1200px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .5rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: white;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: black;
+}
+
+#scrollBtn{
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: $--color-primary;
+    background-color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    position: absolute;
+    top: 90%;
+    right: 20px;
+    position: fixed;
+    border: none;
+
+    &:hover{
+        background-color: $--color-fourth;
+        color: #fff;
+        transition: .5s;
+    }
+
+}
+
+#scrollBtn.remove{
+    display: none;
+}
